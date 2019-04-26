@@ -50,24 +50,21 @@ function addColor() {
 
 
 // //function of  skill bar animation  
+/*
 $(window).on('scroll' , function(){
     scroll_pos = $(window).scrollTop() + $(window).height();
-    element_pos = $('.skillbar-container').offset().top + $('.skillbar-container').height()/2 ;
+    element_pos = $('.skillbar-container').offset().top + $('.skillbar-container').height() ;
     if (scroll_pos > element_pos) {
-        $(function(){
-    xer();
-})
+
 	 };
 })
+*/
 
 
-
-var xer = function(blah){
-    $('.skillbar').each(function () {
-			$(this).find('.skillbar-bar').animate(
-			{width:$(this).attr('data-percent')}, 2000)
-		});
-}
+$('.skillbar').each(function () {
+	$(this).find('.skillbar-bar').animate(
+	{width:$(this).attr('data-percent')}, 2000)
+});
 
 
 $('.count').each(function () {
