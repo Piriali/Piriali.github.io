@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+	<header class="container">
+		<div class="header-top">
+			<a href="#" class="logo-link">Ali Piriev</a>
+			<div class="toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="top-nav">
+				<a href="#" class="nav-link">Home</a>
+				<a href="#" class="nav-link">Portfolio</a>
+				<a href="about.html" class="nav-link">About</a>
+				<a href="contact.html" class="nav-link">Contact</a>
+			</nav>
+		</div>
+		<nav class="open-nav">
+			<a href="#" class="nav-link">Home</a>
+			<a href="#" class="nav-link">Portfolio</a>
+			<a href="about.html" class="nav-link">About</a>
+			<a href="contact.html" class="nav-link">Contact</a>
+		</nav>
+	</header>
+	
+	<section class="home">
+		<h1>Hello, I'm Ali Piriev.<br>I'm beginner frontend web deweloper</h1>
+		<button class="scroll-btn scroll-down" tittle="got to down"><i class="fas fa-angle-down"></i></button>
+	</section>
+
+	<section class="portfolio container">
+		<h2>My Projects</h2>
+		<div class="portfolio-list">
+			<div class="portfolio-item">
+				<img src="img/portf-img-4.png">
+				<a href="https://codepen.io/ali-piriev/full/wZEmBW" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-2.png">
+				<a href="https://codepen.io/ali-piriev/full/bJxYOY" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-3.png">
+				<a href="https://codepen.io/ali-piriev/full/QPVQbL" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-5.png">
+				<a href="https://codepen.io/ali-piriev/full/QPVqgj" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-6.png">
+				<a href="https://codepen.io/ali-piriev/full/vMzpeJ" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-1.png">
+				<a href="https://codepen.io/ali-piriev/full/vMzdLa" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-2.png">
+				<a href="#" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-3.png">
+				<a href="#" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+			<div class="portfolio-item">
+				<img src="img/portf-img-1.png">
+				<a href="#" class="portfolio-link" target="_blank">Visit Website</a>
+				<div class="portfolio-overlay"></div>
+			</div>
+		</div>
+		<div>
+			<a class="portfolio-btn" id="more" onclick="seeBtn('more')">See More</a>
+			<a class="portfolio-btn" id="less" onclick="seeBtn('less')">See Less</a>
+		</div>
+	</section>
+
+	<section class="about container">
+		<div>
+			<h2>About me</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo molestiae accusamus eligendi ad ex consequuntur porro qui at sed error aut, exercitationem rerum maiores, neque veniam sapiente dolorum minima ullam eaque, delectus dolore, odio nobis vitae. Tenetur voluptas cupiditate accusamus, quasi, soluta autem totam ullam. Quidem consequuntur, perferendis reprehenderit laborum omnis dolore veritatis doloremque, repellendus aut ducimus rem quisquam earum, delectus doloribus voluptate molestiae sequi porro cumque corporis voluptas laboriosam soluta. Assumenda ullam sit illum, et odio voluptatibus quo, minus unde distinctio doloribus voluptatem. Et iure odit dolorum blanditiis iusto consequatur voluptatibus rem illum sapiente, asperiores quidem, laborum neque voluptates.	
+			</p>
+		</div>
+		<div>
+			<h2>My Skills</h2>
+			<div class="skillbar-container">
+				<div class="skillbar" data-percent="65%">
+					<div class="skillbar-title">HTML5</div>
+					<div class="skillbar-bar" ></div>
+					<div class="skillbar-percent">65%</div>
+				</div>
+				<div class="skillbar" data-percent="85%">
+					<div class="skillbar-title">CSS</div>
+					<div class="skillbar-bar" ></div>
+					<div class="skillbar-percent">85%</div>
+				</div>
+				<div class="skillbar" data-percent="30%">
+					<div class="skillbar-title">jQuery</div>
+					<div class="skillbar-bar" ></div>
+					<div class="skillbar-percent">30%</div>
+				</div>
+				<div class="skillbar" data-percent="50%">
+					<div class="skillbar-title">JavaScript</div>
+					<div class="skillbar-bar" ></div>
+					<div class="skillbar-percent">50%</div>
+				</div>
+				<div class="skillbar" data-percent="20%">
+					<div class="skillbar-title">PSD to HTML</div>
+					<div class="skillbar-bar" ></div>
+					<div class="skillbar-percent"><p class="count">20</p></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="footer container">
+			<p>© 2019 Ali Piriev.</p>
+			<a href="contact.html">Contact me</a>
+		</div>
+	</footer>
+	
+	<button class="scroll-btn scroll-top"><i class="fas fa-angle-up"></i></button>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="seeBtn.js"></script>
+</body>
+</html>
