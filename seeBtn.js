@@ -2,13 +2,13 @@
 seeBtn('start');
 
 //changing showing quantity of blocks, if devise screen  size is changing after open page    
-window.onresize = function(){ 
+/*window.onresize = function(){ 
 	var item = document.getElementsByClassName('portfolio-item');
 	for(i=0; i<item.length; i++){
 		item[i].style.display="none";
 	}
 	seeBtn('start'); 
-}
+}*/
 function seeBtn(show){
    var ADDQTY; // how many items will open out and hide on the onclick event "see more" , "see less"
    var itemQty; // quantity of default showing blocks(items)
